@@ -122,7 +122,7 @@ nav ul li a:hover::before {
 
 /*WEBSITE BANNER - hero image */
 #sectionZero {
-      background: url(imgs/banner.jpg) no-repeat 50% 50%;
+      background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(imgs/banner.jpg) center no-repeat;
       background-size: cover;
       min-height: 100vh;
        /* -60PX ensures the banner and nav are all the way at the top once the banner text is added */
@@ -131,6 +131,7 @@ nav ul li a:hover::before {
        margin-bottom: -60px;
        /* navbar is approx 70px high so you're accounting for that */
 }
+
 
 /* padding stuff in #bannerText will harm the nav, so do that under bannerText p */
 #bannerText {
