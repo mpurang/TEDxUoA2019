@@ -170,6 +170,7 @@ nav ul li a:hover::before {
 /* padding stuff in #bannerText will harm the nav, so do that under bannerText p */
 
 
+
 /* ABOUT SECTION */
 #sectionOne {
       background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(imgs/logo2.png) center no-repeat;
@@ -194,10 +195,11 @@ nav ul li a:hover::before {
       text-align: justify;
       color: white;
       font-size: 20px;
-      font-weight: 500;
       line-height: 40px;
       padding-right: 25%;
-      padding-left: 25%;      
+      padding-left: 25%; 
+      font-weight: 500;  
+      margin-bottom: 0px;   
       
 }
 
@@ -220,7 +222,7 @@ nav ul li a:hover::before {
 .button:hover {
       box-shadow: inset 400px 0 0 0 #d20000;
 }    
-    
+
 .buttonContainer {
       width: 100%;
       margin: 20px auto 0 auto;
@@ -265,12 +267,13 @@ nav ul li a:hover::before {
 }    
 
 /* WHAKAPAPA SECTION */
- #sectionThree::selection{
+ #sectionTwo::selection{
       background: blue;
 }
 
-#sectionThree {
-      background-color: #d20000;
+#sectionTwo {
+      background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(imgs/nine.jpg) center no-repeat;
+      background-size: cover;
       min-height: 100vh;
       margin-top: 0px;
       max-width:100%;
@@ -377,7 +380,7 @@ nav ul li a:hover::before {
 }
 
 /* EVENT 2018 */
-#sectionTwo {
+#sectionThree {
       margin-top: 0px;
       background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(imgs/event2018.jpg) no-repeat 50% 50%;
       background-size: cover;      
@@ -404,6 +407,7 @@ nav ul li a:hover::before {
       text-align: center;
       padding-top: 100px;
       letter-spacing: 3px;
+      margin-bottom: 0px;
 }
 
 
