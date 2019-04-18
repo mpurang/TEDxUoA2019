@@ -10,12 +10,12 @@
     font-size: 40px;
 }
 
+
 .outer{
     overflow: hidden;
     text-align: center;
     background: #101010;
     padding: 40px;
-
 }
 
 .outer h1{
@@ -52,66 +52,65 @@
     width: 160px;
     height: 3px;
     background: #d20000;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
 }
 
-.ps{
-    margin-bottom: 40px;
-}
 
-.ps a{
+.team-member{
+    width: 260px;
+    height: auto;
+    position: relative;
     display: inline-block;
-    margin: 0 30px;
-    width: 160px;
-    height: 160px;
     overflow: hidden;
-    border-radius: 50%;
+    text-align: center;
+    margin: 0 10px;
+    vertical-align: top;
 }
 
-.ps a img{
+.team-member img{
     width: 100%;
     filter: grayscale(100%);
     transition: 0.4s all;
+
 }
 
-.ps a:hover > img{
+#span{
+    position: relative;
+    opacity: 0;
+    transition: 0.9s opacity;
+}
+
+#span:before{
+    z-index: -1;
+}
+
+.team-member:hover > #span{
+    opacity: 1;
+}
+
+.team-member:hover > img{
     filter: none;
 }
 
-.section{
-    width: 600px;
-    margin: auto;
-    color: white;
-    text-align: justify;
-    height:0;
-    overflow: hidden;
-    
+.team-member h3{
+    margin: 0;
+    color: #d20000;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
-.section:target{
-    height: auto;
-    
-}
-
-.name{
-    display: block;
-    margin-bottom: 30px;
-    text-align: center;
+.team-member h4{
+    margin: 0;
+    color: #d20000;
+    padding-bottom: 5px;
     text-transform: uppercase;
-    font-size: 22px;
-    color: #d20000;
-    font-weight: 600;
 }
 
-.section h3{
-    text-align: center;
-    color: #d20000;
-
-}
-
-.section p{
+.team-member p{
     text-align: left;
     font-size: 17px;
+    color: #fff;
+    padding-bottom: 40px;
 }
 
