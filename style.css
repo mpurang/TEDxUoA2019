@@ -274,7 +274,7 @@ nav ul li a:hover::before {
 }
 
 #sectionTwo {
-      background:linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6) ),url(imgs/banner2018.png) center no-repeat;
+      background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) ),url(imgs/banner2018.png) center no-repeat;
       background-size: cover;
       min-height: 100vh;
       margin-top: 0px;
@@ -384,7 +384,7 @@ nav ul li a:hover::before {
 /* EVENT 2018 */
 #sectionThree {
       margin-top: 0px;
-      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,1)), url(imgs/logo2.png) no-repeat 50% 50%;
+      background: linear-gradient(to bottom, black, rgba(71, 2, 2, 0.288), rgba(255, 0, 0, 0.37), rgba(71, 2, 2, 0.288), black) center no-repeat; 
       background-size: cover;      
       padding-bottom: 1px;
       min-height: 100vh;      
