@@ -173,8 +173,7 @@ nav ul li a:hover::before {
 
 /* ABOUT SECTION */
 #sectionOne {
-      background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%) center no-repeat;
+      background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),url(imgs/about2.jpg) center no-repeat;
       background-size: cover;
       margin-top: 50px;
       min-height: 100vh;
@@ -245,6 +244,7 @@ nav ul li a:hover::before {
 .buttonContainer3 {
       text-align: right;
       padding-right: 75px;
+      padding-bottom: 100px;
 }
 
 .button3 {
@@ -274,7 +274,7 @@ nav ul li a:hover::before {
 }
 
 #sectionTwo {
-      background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(imgs/nine.jpg) center no-repeat;
+      background:linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6) ),url(imgs/banner2018.png) center no-repeat;
       background-size: cover;
       min-height: 100vh;
       margin-top: 0px;
@@ -312,15 +312,12 @@ nav ul li a:hover::before {
       margin: 15px 0 5px 5px;
 }
 
-#rightSide {
-      width: 10%;
-      display: inline-block;
-}
 
 #leftSide {
       width: 10%;
       /*positioning triangle */
-      padding-top: 310px;
+      padding-top: 200px;
+      padding-left: 550px;
       text-align: center;
       color: white; 
       font-size: 40px;      
@@ -340,7 +337,7 @@ nav ul li a:hover::before {
 .fa-play {
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke-width: 3px;
-      -webkit-text-stroke-color: white;
+      -webkit-text-stroke-color: #d20000;
       cursor: pointer;
       transition: transform 300ms ease-in-out;
 }
@@ -351,11 +348,10 @@ nav ul li a:hover::before {
 }
 
 .headingRight {
-      padding-top: 50px;
-      margin-top: 0px;
+      margin-top: -20px;
       padding-right: 90px;
       color: white;
-      font-size:60px;
+      font-size:40px;
       font-weight: bold;
       text-align: right;
       letter-spacing: 5px;
@@ -364,27 +360,31 @@ nav ul li a:hover::before {
 
 .headingRight p {
       /* reduces space between heading and content */
-      margin-bottom: -0px;
+      margin-bottom: -48px;
+      text-align: right;
+      padding-right: 250px;
 }
 
-#contentRight {
-      padding-bottom: 200px;
+.contentRight {
+      padding-bottom: 50px;
+      width: 50%;
+      height: auto;
+      margin-left: 570px;
+
 }
 
-#contentRight p {  
-      text-align: justify;
+.contentRight p {
       color: white;
       font-size: 20px;
       line-height: 40px;
-      padding-right: 90px;
-      padding-left: 5%;
-      padding-bottom: 10px;     
+      padding-bottom: 10px; 
+      text-align: center;  
 }
 
 /* EVENT 2018 */
 #sectionThree {
       margin-top: 0px;
-      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url(imgs/logo2.png) no-repeat 50% 50%;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,1)), url(imgs/logo2.png) no-repeat 50% 50%;
       background-size: cover;      
       padding-bottom: 1px;
       min-height: 100vh;      
