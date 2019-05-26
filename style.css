@@ -173,7 +173,7 @@ nav ul li a:hover::before {
 
 /* ABOUT SECTION */
 #sectionOne {
-      background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ),url(imgs/about2.jpg) center no-repeat;
+      background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9) ),url(imgs/about2.jpg) center no-repeat;
       background-size: cover;
       margin-top: 50px;
       min-height: 100vh;
@@ -268,14 +268,13 @@ nav ul li a:hover::before {
 }   
 
 
-/* WHAKAPAPA SECTION */
- #sectionTwo::selection{
+/* Past Event SECTION */
+#sectionTwo::selection{
       background: blue;
 }
 
 #sectionTwo {
-      background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) ),url(imgs/banner2018.png) center no-repeat;
-      background-size: cover;
+      background-color: #d20000;
       min-height: 100vh;
       margin-top: 0px;
       max-width:100%;
@@ -312,12 +311,15 @@ nav ul li a:hover::before {
       margin: 15px 0 5px 5px;
 }
 
+#rightSide {
+      width: 10%;
+      display: inline-block;
+}
 
 #leftSide {
       width: 10%;
       /*positioning triangle */
-      padding-top: 200px;
-      padding-left: 550px;
+      padding-top: 310px;
       text-align: center;
       color: white; 
       font-size: 40px;      
@@ -337,7 +339,7 @@ nav ul li a:hover::before {
 .fa-play {
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke-width: 3px;
-      -webkit-text-stroke-color: #d20000;
+      -webkit-text-stroke-color: white;
       cursor: pointer;
       transition: transform 300ms ease-in-out;
 }
@@ -348,10 +350,11 @@ nav ul li a:hover::before {
 }
 
 .headingRight {
-      margin-top: -20px;
+      padding-top: 50px;
+      margin-top: 0px;
       padding-right: 90px;
       color: white;
-      font-size:40px;
+      font-size:60px;
       font-weight: bold;
       text-align: right;
       letter-spacing: 5px;
@@ -360,25 +363,21 @@ nav ul li a:hover::before {
 
 .headingRight p {
       /* reduces space between heading and content */
-      margin-bottom: -48px;
-      text-align: right;
-      padding-right: 250px;
+      margin-bottom: -0px;
 }
 
-.contentRight {
-      padding-bottom: 50px;
-      width: 50%;
-      height: auto;
-      margin-left: 570px;
-
+#contentRight {
+      padding-bottom: 200px;
 }
 
-.contentRight p {
+#contentRight p {  
+      text-align: justify;
       color: white;
       font-size: 20px;
       line-height: 40px;
-      padding-bottom: 10px; 
-      text-align: center;  
+      padding-right: 90px;
+      padding-left: 5%;
+      padding-bottom: 10px;     
 }
 
 /* EVENT 2018 */
